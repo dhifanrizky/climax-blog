@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>\
+    <script src="script.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+</head>
+<body>
+    <!--Call to action-->
+    <section class="bg-white-50">
+      <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+        <div class="mx-auto max-w-lg text-center">
+          <h2 class="text-2xl font-bold text-gray-900 md:text-2xl ">
+            EcoLearn:  A blog that provides educational content on climate change and practical ways to protect the Earth.
+          </h2>
+
+          <p class="mx-auto text-gray-500 sm:mt-4 sm:block">
+            EcoLearn is your go-to source for learning about climate change, its global impact, and the simple actions we can take to protect our planet.
+          </p>
+        </div>
+
+        <div class="mx-auto mt-8 max-w-xl">
+          <form action="#" class="sm:flex sm:gap-4">
+            <div class="sm:flex-1">
+              <label for="Search">
+              
+                <div class="relative">
+                  <input
+                    type="text"
+                    id="Search"
+                    placeholder="Search for eco-friendly tips"
+                    class="mt-1 w-full rounded-full border-gray-300 bg-white pe-10 shadow-sm sm:text-base py-3 px-4 
+                    focus:outline-none focus:border-green-600 focus:ring focus:ring-green-600"
+                  />
+
+                  <span class="absolute inset-y-0 right-2 grid w-8 place-content-center">
+                    <button
+                      type="button"
+                      aria-label="Submit"
+                      class="rounded-full p-1.5 text-gray-700 transition-colors hover:bg-gray-100"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-5"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                        />
+                      </svg>
+                    </button>
+                  </span>
+                </div>
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--end Call to action-->
+
+    <!--blog list-->
+    <div class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-9 mx-auto py-8 px-10 sm:px-6 lg:px-3" id="daftar-blog" >
+      
+    </div>
+
+    <!--end blog list-->
+</body>
+</html>
